@@ -1,0 +1,10 @@
+from tkinter import *
+x=Tk()
+L1=Label(x,text="python programming",height=10,width=10,bd=2,anchor=NW,fg="white",bg="purple")
+L1.grid(row=0,column=0)
+L2=Label(x,text="django",height=10,width=20,bd=2,anchor=W,fg="white",bg="purple")
+L2.grid(row=1,column=0)
+L3=Label(x,text="desktop app",height=10,width=20,bd=2,anchor=SW,fg="white",bg="purple")
+L3.grid(row=2,column=0)
+L4=Label(x,text="data science",height=10,width=20,bd=2,anchor=N,fg="white",bg="purple")
+L4.grid(row=0,column=1)
